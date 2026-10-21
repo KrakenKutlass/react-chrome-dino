@@ -93,6 +93,16 @@ html[subframe] body {
   display: none;
 }
 
+/* Night mode. */
+.runner-container {
+  transition: filter 1.5s ease-in, background-color 1.5s ease-in;
+}
+
+.runner-container.inverted {
+  background-color: #fff;
+  filter: invert(1);
+}
+
 @media (max-height: 350px) {
   .interstitial-wrapper {
     margin-top: 5%;

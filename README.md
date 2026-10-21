@@ -25,6 +25,16 @@ export default App;
 
 Check [`src/demo`](src/demo) for a usage example.
 
+## Game features
+
+The game is Chrome's offline T-Rex runner (from Chromium 72), with:
+
+- **Pterodactyls** that fly in at different heights once you reach speed. Press **↓** to duck under the low ones.
+- **Night mode**, which switches on every 700 points with a moon and stars.
+- **Shield power-up**: a blue shield floats in at jump height every 8 to 16 seconds. Jump into it and the next obstacle you hit is destroyed instead of ending the run. A small shield icon in the top-left shows when it's active.
+
+Controls: **Space**/**↑** to jump, **↓** to duck (or to drop quickly mid-jump), **Enter** to restart. Tap to jump on touch screens.
+
 ## License
 
 This library is licensed under MIT.
