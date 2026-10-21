@@ -1,4 +1,4 @@
 {
-  "buildCommand": "NODE_OPTIONS=--openssl-legacy-provider PUBLIC_URL=/ yarn demo",
+  "buildCommand": "PUBLIC_URL=/ yarn demo",
   "outputDirectory": "demo"
 }
